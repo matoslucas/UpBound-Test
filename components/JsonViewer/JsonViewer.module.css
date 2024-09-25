@@ -1,12 +1,10 @@
 .hide {
-  display: none;
+ display: none;
 }
-.myNode {
-  min-height: 30px;
+
+.show:hover > .hide{
+ display: block;
 }
-.myNode:hover>.hide {
+.show:hover \ .hide{
   display: block;
-}
-.myTree{
-  width: 45vw;
-}
+ }
